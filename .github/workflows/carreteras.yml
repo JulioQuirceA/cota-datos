@@ -1,0 +1,35 @@
+name: Carreteras
+
+# Cada 15 minutos: incidencias del Servei Català de Trànsit en las carreteras de acceso a
+# las estaciones de Cota → carreteras.json (servido por GitHub Pages).
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: carreteras
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Descargar y filtrar
+        run: node tools/carreteras.mjs
+      - name: Publicar si ha cambiado
+        run: |
+          if git diff --quiet -- carreteras.json && [ -z "$(git status --porcelain carreteras.json)" ]; then echo "Sin cambios"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add carreteras.json
+          git commit -q -m "Carreteras $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q
