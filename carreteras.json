@@ -1,0 +1,43 @@
+{
+ "checked": "2026-11-13T19:27:50.320Z",
+ "source": "Servei Català de Trànsit · DATEX2 vía nap.dgt.es",
+ "license": "Datos abiertos de la Generalitat de Catalunya",
+ "total": 187,
+ "stations": {
+  "baqueira": [
+   {
+    "id": "GUID-1522460-1",
+    "road": "C-28",
+    "label": "Obras · calzada cortada",
+    "place": "Naut Aran",
+    "km": "41,9–45,9",
+    "dir": "ambos sentidos",
+    "since": "2026-11-02T08:00:00+01:00",
+    "until": null,
+    "severe": true
+   },
+   {
+    "id": "GUID-1515627-1",
+    "road": "C-28",
+    "label": "Obras · calzada cortada",
+    "place": "Naut Aran",
+    "km": "42,6–43,5",
+    "dir": "ambos sentidos",
+    "since": "2026-10-05T17:03:32+02:00",
+    "until": null,
+    "severe": true
+   },
+   {
+    "id": "GUID-1515471-1",
+    "road": "C-13",
+    "label": "Obras · calzada cortada · desvío de carril",
+    "place": "Llavorsí",
+    "km": "142,1–142,2",
+    "dir": "ambos sentidos",
+    "since": "2026-10-05T08:00:00+02:00",
+    "until": null,
+    "severe": true
+   }
+  ]
+ }
+}
