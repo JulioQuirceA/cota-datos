@@ -1,10 +1,21 @@
 {
- "checked": "2026-11-14T06:56:02.027Z",
+ "checked": "2026-11-14T14:02:14.503Z",
  "source": "Servei Català de Trànsit · DATEX2 vía nap.dgt.es",
  "license": "Datos abiertos de la Generalitat de Catalunya",
- "total": 183,
+ "total": 199,
  "stations": {
   "baqueira": [
+   {
+    "id": "GUID-1525664-1",
+    "road": "N-230",
+    "label": "Tráfico denso",
+    "place": "Vilaller",
+    "km": "132,5–133",
+    "dir": null,
+    "since": "2026-11-14T13:28:45+01:00",
+    "until": null,
+    "severe": false
+   },
    {
     "id": "GUID-1522460-1",
     "road": "C-28",
