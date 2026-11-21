@@ -1,8 +1,8 @@
 {
- "checked": "2026-11-21T03:54:35.999Z",
+ "checked": "2026-11-21T12:19:45.981Z",
  "source": "Servei Català de Trànsit · DATEX2 vía nap.dgt.es",
  "license": "Datos abiertos de la Generalitat de Catalunya",
- "total": 160,
+ "total": 158,
  "stations": {
   "baqueira": [
    {
@@ -26,6 +26,17 @@
     "since": "2026-10-05T17:03:32+02:00",
     "until": null,
     "severe": true
+   },
+   {
+    "id": "GUID-1526060-1",
+    "road": "C-28",
+    "label": "Obras · desvío de carril",
+    "place": "Alt Àneu",
+    "km": "58–59",
+    "dir": "ambos sentidos",
+    "since": "2026-11-16T00:00:00+01:00",
+    "until": null,
+    "severe": false
    },
    {
     "id": "GUID-1515471-1",
