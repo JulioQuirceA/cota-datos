@@ -1,8 +1,8 @@
 {
- "checked": "2026-11-26T12:04:25.810Z",
+ "checked": "2026-11-26T21:36:28.918Z",
  "source": "Servei Català de Trànsit · DATEX2 vía nap.dgt.es",
  "license": "Datos abiertos de la Generalitat de Catalunya",
- "total": 213,
+ "total": 193,
  "stations": {
   "baqueira": [
    {
@@ -30,7 +30,7 @@
    {
     "id": "GUID-1515627-1",
     "road": "C-28",
-    "label": "Obras · calzada cortada",
+    "label": "Obras · calzada cortada · desvío de carril",
     "place": "Naut Aran",
     "km": "42,6–43,5",
     "dir": "ambos sentidos",
