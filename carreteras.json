@@ -1,21 +1,10 @@
 {
- "checked": "2026-11-27T03:48:58.189Z",
+ "checked": "2026-11-27T13:37:48.578Z",
  "source": "Servei Català de Trànsit · DATEX2 vía nap.dgt.es",
  "license": "Datos abiertos de la Generalitat de Catalunya",
- "total": 206,
+ "total": 223,
  "stations": {
   "baqueira": [
-   {
-    "id": "GUID-1528409-2",
-    "road": "C-28",
-    "label": "Regulación del tráfico · cadenas obligatorias",
-    "place": "Naut Aran",
-    "km": "37,1–51,9",
-    "dir": "ambos sentidos",
-    "since": "2026-11-25T21:29:42+01:00",
-    "until": null,
-    "severe": true
-   },
    {
     "id": "GUID-1522460-1",
     "road": "C-28",
@@ -37,17 +26,6 @@
     "since": "2026-10-05T17:03:32+02:00",
     "until": null,
     "severe": true
-   },
-   {
-    "id": "GUID-1528409-1",
-    "road": "C-28",
-    "label": "Meteorología adversa · nevando",
-    "place": "Naut Aran",
-    "km": "37,1–51,9",
-    "dir": "ambos sentidos",
-    "since": "2026-11-25T21:29:42+01:00",
-    "until": null,
-    "severe": false
    },
    {
     "id": "GUID-1526060-1",
